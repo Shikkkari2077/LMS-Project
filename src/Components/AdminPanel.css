@@ -1,0 +1,84 @@
+.adminContainer{
+    display: flex;
+    height: 1092px;
+}
+.sideNav{
+    background: rgb(10, 82, 236);
+    width: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.3s all ease;
+}
+.MinimizeSideNav{
+    width: 100px;
+}
+.rightContainer{
+    width: 100%;
+}
+.head{
+    padding: 25px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hlogo{
+    background: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: -25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Minihlogo{
+    left: 10px;
+}
+.minimize{
+    background: white;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    position: relative;
+    right: -53px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.356);
+}
+.Aminimize{
+    left: 25px;
+}
+.htitle{
+    font-size: 30px;
+    color: white;
+    font-weight: 500;
+    position: relative;
+}
+.sideNav ul {
+    list-style: none;
+    margin-top: 20px;
+}
+.sideNav ul li {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px 10px;
+    padding-left: 20px;
+    font-size: 25px;
+    color: white;
+}
+.sideNav ul li:hover{
+    background: rgba(12, 180, 231, 0.562);
+    cursor: pointer;
+}
+.sideNav ul li div{
+    margin-right: 15px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: white;
+}
