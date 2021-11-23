@@ -4,81 +4,170 @@
 }
 .sideNav{
     background: rgb(10, 82, 236);
-    width: 300px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    transition: 0.3s all ease;
+    width: 265px;
+    display: block;
+    transition: 0.5s all ease;
 }
 .MinimizeSideNav{
-    width: 100px;
+    width: 94px;
 }
 .rightContainer{
     width: 100%;
 }
 .head{
-    padding: 25px 15px;
+    width: 259px;
+    height: 100px;
+    padding: 0px 15px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 .hlogo{
     background: white;
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     position: relative;
-    left: -25px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .Minihlogo{
-    left: 10px;
-}
-.minimize{
-    background: white;
-    border-radius: 50%;
-    width: 25px;
-    height: 25px;
-    position: relative;
-    right: -53px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.356);
-}
-.Aminimize{
-    left: 25px;
+    left: 0px;
 }
 .htitle{
     font-size: 30px;
+    margin-left: 25px;
     color: white;
     font-weight: 500;
     position: relative;
 }
+.displayNone{
+    transition: 0.5s all ease;
+    display: none;
+    
+}
 .sideNav ul {
     list-style: none;
-    margin-top: 20px;
+    margin-top: 10px;
+    overflow: hidden;
+   
 }
 .sideNav ul li {
     display: flex;
     align-items: center;
+    width: 250px;
     margin-top: 10px;
-    padding: 10px 10px;
-    padding-left: 20px;
-    font-size: 25px;
+    padding: 7px 27px;
+    font-size: 22px;
     color: white;
 }
 .sideNav ul li:hover{
     background: rgba(12, 180, 231, 0.562);
     cursor: pointer;
+    overflow: hidden;
 }
 .sideNav ul li div{
     margin-right: 15px;
     width: 30px;
     height: 30px;
     border-radius: 50%;
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: white;
+}
+.sideNavIcon{
+    height: 25px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+    height: 100px;
+    position: relative;
+}
+.minimize{
+    background: white;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left:-10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.356);
+}
+.navIcons{
+    height: 25px;
+}
+.first {
+    display: flex;
+}
+.search{
+    border: 1px solid rgba(0, 0, 0, 0.479);
+    padding: 0px 5px;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    width: 400px;
+    border-radius: 50px;
+}
+.search input{
+    width: 100%;
+    padding: 4px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    border-radius: inherit;
+}
+.admnistrator{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+.admnistrator span{
+    margin-left: 5px;
+}
+.admnistrator .navIcons{
+    height: 23px;
+}
+.myProfile{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.myProfile span{
+    margin-left: 5px;
+}
+.myProfile .navIcons{
+    height: 23px;
+}
+.second{
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 280px;
+}
+.second div{
+    cursor: pointer;
+}
+.second div img{
+    height: 30px;
+}
+.userProfile{
+    width: 43px;
+    height: 43px;
+    border-radius: 50%;
+    background: rgb(10, 82, 236);
+    cursor: pointer;
+    color: white;
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
 }
