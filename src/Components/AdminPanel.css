@@ -4,7 +4,7 @@
 }
 .sideNav{
     background: rgb(10, 82, 236);
-    width: 265px;
+    width: 275px;
     display: block;
     transition: 0.5s all ease;
 }
@@ -35,7 +35,7 @@
     left: 0px;
 }
 .htitle{
-    font-size: 30px;
+    font-size: 35px;
     margin-left: 25px;
     color: white;
     font-weight: 500;
@@ -58,7 +58,7 @@
     width: 250px;
     margin-top: 10px;
     padding: 7px 27px;
-    font-size: 22px;
+    font-size: 24px;
     color: white;
 }
 .sideNav ul li:hover{
@@ -94,7 +94,7 @@
     width: 25px;
     height: 25px;
     position: absolute;
-    left:-10px;
+    left:-13px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -112,7 +112,7 @@
     padding: 0px 5px;
     display: flex;
     align-items: center;
-    height: 30px;
+    height: 35px;
     width: 400px;
     border-radius: 50px;
 }
@@ -128,9 +128,11 @@
     display: flex;
     align-items: center;
     margin-left: 30px;
+    cursor: pointer;
 }
 .admnistrator span{
     margin-left: 5px;
+    font-size: 20px;
 }
 .admnistrator .navIcons{
     height: 23px;
@@ -139,9 +141,11 @@
     display: flex;
     align-items: center;
     margin-left: 20px;
+    cursor: pointer;
 }
 .myProfile span{
     margin-left: 5px;
+    font-size: 20px;
 }
 .myProfile .navIcons{
     height: 23px;
