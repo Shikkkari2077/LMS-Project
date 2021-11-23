@@ -106,6 +106,7 @@
 }
 .first {
     display: flex;
+    width: 70%;
 }
 .search{
     border: 1px solid rgba(0, 0, 0, 0.479);
@@ -113,7 +114,7 @@
     display: flex;
     align-items: center;
     height: 35px;
-    width: 400px;
+    width: 40%;
     border-radius: 50px;
 }
 .search input{
@@ -146,6 +147,7 @@
 .myProfile span{
     margin-left: 5px;
     font-size: 20px;
+
 }
 .myProfile .navIcons{
     height: 23px;
@@ -154,18 +156,18 @@
     /* border: 1px solid black; */
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 280px;
+    justify-content: space-around;
+    width: 30%;
 }
 .second div{
     cursor: pointer;
 }
 .second div img{
-    height: 30px;
+    height: 35px;
 }
 .userProfile{
-    width: 43px;
-    height: 43px;
+    width: 45px;
+    height: 45px;
     border-radius: 50%;
     background: rgb(10, 82, 236);
     cursor: pointer;
