@@ -15,7 +15,9 @@ const AdminPanel = () => {
         <div className='adminContainer'>
            <div className={minimize?"sideNav MinimizeSideNav":"sideNav"}>
                <div className="head">
-                    <div className={minimize?'hlogo Minihlogo':'hlogo'}> <Icofont icon="book" rotate="270" flip="h" size="3"/></div>
+                    <div className='hlogo'>
+                        <img src="/image/book.svg" alt="" />
+                    </div>
                      <div className={minimize?'htitle displayNone':'htitle'}>Admin</div>
                </div>
                <ul>
@@ -36,7 +38,7 @@ const AdminPanel = () => {
            </div>
            <div className="rightContainer">
                <nav className="navbar">
-                    <div className='minimize' onClick={handleClick}><Icofont icon={minimize?'icofont-ui-next':"icofont-ui-previous"} size="1"/></div>
+                    <div className='minimize' onClick={handleClick}><img className={minimize?'mini Amini':'mini'} src="/image/next.svg" alt="" /></div>
                     <div className="first">
                        <div className="search">
                             <img className='navIcons' src="/image/Search.svg" alt="" />
